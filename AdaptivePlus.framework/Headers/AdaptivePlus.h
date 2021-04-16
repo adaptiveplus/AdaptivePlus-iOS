@@ -2,8 +2,7 @@
 //  AdaptivePlus.h
 //  AdaptivePlus
 //
-//  Created by Yerassyl Yerlanov on 7/2/20.
-//  Copyright © 2020 s10s. All rights reserved.
+//  Created by a1pamys on 15.03.2021.
 //
 
 #import <Foundation/Foundation.h>

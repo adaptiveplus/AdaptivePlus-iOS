@@ -190,7 +190,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import CoreGraphics;
 @import ObjectiveC;
-@import SafariServices;
 @import UIKit;
 #endif
 
@@ -217,12 +216,6 @@ SWIFT_CLASS("_TtC12AdaptivePlus6APView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-
-@class SFSafariViewController;
-
-@interface APView (SWIFT_EXTENSION(AdaptivePlus)) <SFSafariViewControllerDelegate>
-- (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
-@end
 
 
 
@@ -255,18 +248,6 @@ SWIFT_CLASS("_TtC12AdaptivePlus38AnimatedCollectionViewLayoutAttributes")
 
 
 
-@interface UIButton (SWIFT_EXTENSION(AdaptivePlus))
-@property (nonatomic, readonly) CGSize intrinsicContentSize;
-@end
-
-
-
-
-
-
-
-
-
 
 
 @class UIViewController;
@@ -278,13 +259,11 @@ SWIFT_CLASS("_TtC12AdaptivePlus38AnimatedCollectionViewLayoutAttributes")
 @end
 
 
-
 @interface UITabBarController (SWIFT_EXTENSION(AdaptivePlus))
 /// The view controller representing the selected tab is assumed to contain
 /// the <code>UIScrollView</code> to be tracked
 @property (nonatomic, readonly, strong) UIViewController * _Nullable childViewControllerForDeck;
 @end
-
 
 
 
