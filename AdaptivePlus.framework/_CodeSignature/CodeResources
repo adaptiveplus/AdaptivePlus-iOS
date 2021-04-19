@@ -42,7 +42,7 @@
 		</data>
 		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		W0y98eSUpM9H00ZG4xQiGSjSvj0=
+		ypJTzHKrtkoZ8GdxFemTp2Cjdq4=
 		</data>
 		<key>Headers/AdaptivePlus-Swift.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		u7kwkc102P0chVMBzfLwOMLfEf8=
+		h4+ULKMwy5dPmtlG8hnSE2z+S6o=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
@@ -154,7 +154,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h953KGGSQZvusMmBy95H3tmJAjd10fupqiMDwQeBum8=
+			tvKmwOzt/JF7g8zIveKeLvSmYV262fHTvWAULWDuZNw=
 			</data>
 		</dict>
 		<key>Headers/AdaptivePlus-Swift.h</key>
