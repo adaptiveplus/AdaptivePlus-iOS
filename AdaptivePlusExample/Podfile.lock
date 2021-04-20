@@ -1,12 +1,12 @@
 PODS:
-  - AdaptivePlus-iOS (0.0.3):
+  - AdaptivePlus-iOS (0.0.4):
     - SDWebImage (~> 5.10.4)
   - SDWebImage (5.10.4):
     - SDWebImage/Core (= 5.10.4)
   - SDWebImage/Core (5.10.4)
 
 DEPENDENCIES:
-  - AdaptivePlus-iOS
+  - AdaptivePlus-iOS (~> 0.0.4)
 
 SPEC REPOS:
   trunk:
@@ -14,9 +14,9 @@ SPEC REPOS:
     - SDWebImage
 
 SPEC CHECKSUMS:
-  AdaptivePlus-iOS: e305ceaf9c807902d3ef647a72d3af9c272509c5
+  AdaptivePlus-iOS: 97965db855a93678256b58dbcf72f152dbb44a9d
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
 
-PODFILE CHECKSUM: f4e8546165602fdc0bc86be449a121b5d790ad52
+PODFILE CHECKSUM: 26835860d304d6ccc4350220bc9083939f266d17
 
 COCOAPODS: 1.10.1
