@@ -27,8 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             userCoordinate: nil,
             properties: [
                 "gender": "male",
-                "age": 20,
-                "isVIP": false
+                "age": "20",
+                "isVIP": "false"
             ])
         AdaptivePlus.instance.start(properties: properties)
 

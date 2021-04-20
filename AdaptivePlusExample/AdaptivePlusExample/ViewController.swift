@@ -34,8 +34,9 @@ class ViewController: UIViewController {
         apView.reload()
     }
 
-    //scrolltostart
-
+    @IBAction func scrollToStart(_ sender: Any) {
+        apView.scrollToStart()
+    }
 
 }
 
