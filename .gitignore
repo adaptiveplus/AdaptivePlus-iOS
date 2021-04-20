@@ -131,4 +131,4 @@ Temporary Items
 # Annoying CleanMyMac or LLVM generated file
 default.profraw
 
-AdaptivePlusExample/.gitignore
+AdaptivePlusExample/Podfile.lock
