@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    // Use here your own apiKey generated from AdaptivePlus admin panel
+    // Use an Api Key generated from the adaptive.plus admin panel, go to "Integrations"
     let apiKey = "uHMYZLfGaEFPyynhwJyzAHyfjXUlrGhblTtxWduqtCDMLxiDHIMGFpXzpLGIehps"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -21,9 +21,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         AdaptivePlus.instance.initialize(settings: AdaptivePlusSettings(apiKey: apiKey))
         // Set user properties which will be idendified by AdaptivePlus
         let properties = AdaptivePlusUserProperties(
-            userId: UIDevice.current.identifierForVendor?.uuidString ?? "Unknown device id",
-            gender: .male,
-            age: 20)
+            //In app Client Identifier (Email/Phone/Internal user id)
+            userId: nil,
+            //In app Client Properties (Age/Gender/Country/Vip Status, etc)
+            userCoordinate: nil,
+            properties: [
+                "gender": "male",
+                "age": 20,
+                "isVIP": false
+            ])
         AdaptivePlus.instance.start(properties: properties)
 
         return true

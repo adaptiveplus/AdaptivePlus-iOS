@@ -11,8 +11,6 @@ import AdaptivePlus
 class ViewController: UIViewController {
 
     var apView: APView!
-    // Use here your own tag id generated from AdaptivePlus admin panel
-    let tagId: String = "65ff0c32-4a6f-4431-83d3-eb340f62f405"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +19,7 @@ class ViewController: UIViewController {
     }
 
     func setupApativeView() {
-        apView = AdaptivePlus.instance.createAPView(with: tagId)
+        apView = AdaptivePlus.instance.createAPView()
         view.addSubview(apView)
 
         NSLayoutConstraint.activate([
@@ -29,11 +27,15 @@ class ViewController: UIViewController {
             apView.leftAnchor.constraint(equalTo: view.leftAnchor),
             apView.rightAnchor.constraint(equalTo: view.rightAnchor)
         ])
+
     }
 
     @IBAction func reloadButtonTouched(_ sender: Any) {
-        apView.reloadView()
+        apView.reload()
     }
+
+    //scrolltostart
+
 
 }
 
