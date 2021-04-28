@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "AdaptivePlus-iOS"
-  spec.version="0.0.14"
+  spec.version="0.0.15"
   spec.summary      = "AdaptivePlus-iOS."
   spec.description  = <<-DESC
   Gitlab for marketing professionals.
