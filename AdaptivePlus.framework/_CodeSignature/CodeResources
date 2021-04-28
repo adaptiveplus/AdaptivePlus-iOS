@@ -6,11 +6,11 @@
 	<dict>
 		<key>#1.json</key>
 		<data>
-		jmeyR5bLZSNCWAZ0DPc0T7A5STU=
+		4iW+8wM4KiWjfHC62/uJcRjnO0g=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		/544wWJyvhivnWdYbqKiJMK/X+0=
+		uTSHA4ltoBdHPxKAzt9g7vrfTwo=
 		</data>
 		<key>CreateFramework.sh</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Frameworks/Pods_AdaptivePlus.framework/Info.plist</key>
 		<data>
-		sQrwZkJkbJCEHKeUflwmPzzTBr4=
+		KCCs13p4TJxDVKZ9zd5tiCK81ak=
 		</data>
 		<key>Frameworks/Pods_AdaptivePlus.framework/Pods_AdaptivePlus</key>
 		<data>
-		dmwcepwdpXD83BTY/G6xowm+ApI=
+		b9A57hhqDwMAldL1h8uFLIPFOF4=
 		</data>
 		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		YjRiNa8m2H0Hgmkc8qqjMaTSOSY=
+		t17ZWx3i0k6dfh5+ORzGn87w3gA=
 		</data>
 		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -34,15 +34,15 @@
 		</data>
 		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		YoJ52aBkpSJ79Mzj5vUQ4ZXr4r4=
+		bPiwe189KP8Yc1WqiC5Ei5poW8c=
 		</data>
 		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ZpqeMBkZ9+p5cTyTu8ouzU7LAY4=
+		INbJzmg1PL4i0NwL5tGcD2Y7Ijc=
 		</data>
 		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		13bc0I6S/Ott/DESkbd7kOTySz0=
+		rNPwi7UB9bsoag2Imyr0Zjfq/AI=
 		</data>
 		<key>Headers/AdaptivePlus-Swift.h</key>
 		<data>
@@ -54,31 +54,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7f2H81dPoxgliKm42M1Dguip7Co=
+		yvmmeMF/HlOwqBHcXOswjCbRrho=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		CqEBQTw6bdTtD6ADeop02a/uuK4=
+		A7sDUmrazXptAbhNItfV6rIDLb4=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		CqEBQTw6bdTtD6ADeop02a/uuK4=
+		A7sDUmrazXptAbhNItfV6rIDLb4=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ef/AmTIy/p2MnhRlRdBXNoKPDaY=
+		MviqjBAtefrUSpbkhPB1xHhrbpQ=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		49SKTZ+R/dVMEXOZWUlprOUXoWs=
+		OOxmBRMW6HRddiOTMqjUREENIcw=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		ef/AmTIy/p2MnhRlRdBXNoKPDaY=
+		MviqjBAtefrUSpbkhPB1xHhrbpQ=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		49SKTZ+R/dVMEXOZWUlprOUXoWs=
+		OOxmBRMW6HRddiOTMqjUREENIcw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -91,14 +91,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DjipWI9MqNNoY1fYSkuCqPrLcKSErmtEBqw90JE4Jc0=
+			Ccaz21xhwokgrbBCRAyzS/bSYEzuPRt8eBwaImR6xwg=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AR8m2NEdsuPi9li0y+rl/2evAOHMHPSeE1SmqgGxw3I=
+			n/tqe/x6cMxdP/GOs8aX7xUnLDc+GiwrCT9nbSRqWWI=
 			</data>
 		</dict>
 		<key>CreateFramework.sh</key>
@@ -112,21 +112,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oqlQQ3r0lswUbwDEYLp61Zw7jOqKScjQVHRrZHjFqb0=
+			DidzJiqRam/Iy31Izekx6tKYaZP2mK0lBLVzWujqGDo=
 			</data>
 		</dict>
 		<key>Frameworks/Pods_AdaptivePlus.framework/Pods_AdaptivePlus</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TL+HVdLCO5CndZ3XZmR/M9I1qRHuyB+DzzwHjjwCdvo=
+			YWVsjk/NL8nyEueIYEKLMHz182q2fYAyc9qryRkDPGs=
 			</data>
 		</dict>
 		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			duD23U4apzZzPhAFcVh7YMMYnJ5eMCbCwzjmW0iZlQI=
+			YW7qEGUd+3lSKl3OPPk7aZkyKyr+gqbfoUxjLj0f068=
 			</data>
 		</dict>
 		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeRequirements</key>
@@ -140,21 +140,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dALULfRqpK/poxIl7He6ZQwx2R5MyIoos7dFugRnm0I=
+			+IWwweaPuTNx8IrawaGQhP2o7a/UPj36bwA4ROXgUWA=
 			</data>
 		</dict>
 		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lp+POApaFkz2W+3mvwL6l4dETHH/wLCnOgfKFEdwG9A=
+			fy6OA7FMt9EaFOiM+YFYVemBqEpHW0gets+jMxd4EeY=
 			</data>
 		</dict>
 		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeSignature</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kEmm2XQybzLfuAhwHeCd2abTig4hP31x/qDXzq1se08=
+			32DSwCZYgkylPhxM+tlm7MAuaZcb2WVjTye4TeOsrz4=
 			</data>
 		</dict>
 		<key>Headers/AdaptivePlus-Swift.h</key>
@@ -175,42 +175,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fbbxxAPrGOZ3MMESJTwJuF5P2NS1VmbpoL+24m7h5WI=
+			FZUF1KzycCF3rNlO/Zr0WtbLJmCfEDZiRy0LDwy1YrU=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fbbxxAPrGOZ3MMESJTwJuF5P2NS1VmbpoL+24m7h5WI=
+			FZUF1KzycCF3rNlO/Zr0WtbLJmCfEDZiRy0LDwy1YrU=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D46m5kS9nlI4J2qFQQAsY1Yac/+i43Xb0Xbu5uqO2H0=
+			+M7ClRoHNnmWOLdsOJUbHtpbBtdtoeahvtM2OESKoh4=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			woWgiNUy35YS4E9h4SlaGl2AVe4yaUulEGzzSYuR+gI=
+			+hkWAgufBo/pbyzFuCHnbPkHTepDmRPLCsqoYvm+9L8=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D46m5kS9nlI4J2qFQQAsY1Yac/+i43Xb0Xbu5uqO2H0=
+			+M7ClRoHNnmWOLdsOJUbHtpbBtdtoeahvtM2OESKoh4=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			woWgiNUy35YS4E9h4SlaGl2AVe4yaUulEGzzSYuR+gI=
+			+hkWAgufBo/pbyzFuCHnbPkHTepDmRPLCsqoYvm+9L8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

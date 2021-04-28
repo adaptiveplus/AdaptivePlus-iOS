@@ -81,6 +81,7 @@
                           "padding": 4
                         }
                       },
+                      "loadingColor": "#800080",
                       "cornerRadius": 12
                     }
                   },
@@ -120,6 +121,7 @@
                           "padding": 4
                         }
                       },
+                      "loadingColor": "#2f4255",
                       "cornerRadius": 12
                     }
                   },
