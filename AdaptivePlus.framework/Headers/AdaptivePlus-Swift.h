@@ -229,9 +229,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layou
 + (Class _Nonnull)layoutAttributesClass SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<UICollectionViewLayoutAttributes *> * _Nullable)layoutAttributesForElementsInRect:(CGRect)rect SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds SWIFT_WARN_UNUSED_RESULT;
-- (void)prepareForAnimatedBoundsChange:(CGRect)oldBounds;
-- (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset SWIFT_WARN_UNUSED_RESULT;
-- (void)finalizeAnimatedBoundsChange;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -264,7 +261,6 @@ SWIFT_CLASS("_TtC12AdaptivePlus38AnimatedCollectionViewLayoutAttributes")
 /// the <code>UIScrollView</code> to be tracked
 @property (nonatomic, readonly, strong) UIViewController * _Nullable childViewControllerForDeck;
 @end
-
 
 
 
