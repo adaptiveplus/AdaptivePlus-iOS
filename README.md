@@ -16,7 +16,7 @@
 Add following to your Podfile
 ```
 platform :ios, '11.0'
-pod 'AdaptivePlus-iOS'
+pod 'AdaptivePlus-iOS', '0.0.31'
 ```
 and run following command.
 
