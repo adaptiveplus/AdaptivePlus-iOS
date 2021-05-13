@@ -29,28 +29,33 @@ $ pod install
 #### 1. Put following code to your AppDelegate.swift file
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    // 1 SDK initialization
-    AdaptivePlus.instance.initialize(settings: AdaptivePlusSettings(apiKey: apiKey))
-    // Set user properties which will be idendified by AdaptivePlus
+    // #1
+    let settings = AdaptivePlusSettings(apiKey: "YOUR_API_KEY")
+    
+    // #2
+    AdaptivePlus.instance.initialize(settings: settings, verbose: true/false)
+    
+    // #3
     let properties = AdaptivePlusUserProperties(
-        //In app Client Identifier (Email/Phone/Internal user id)
+        // In app Client Identifier (Email/Phone/Internal user id)
         userId: nil,
-        //In app Client Properties (Age/Gender/Country/Vip Status, etc)
         userCoordinate: nil,
+        // In app Client Properties (Age/Gender/Country/VIP Status, etc)
         properties: [
             "gender": "MALE",
             "age": "20"
         ])
-    // 2 SDK start with user properties
+        
+    // #4
     AdaptivePlus.instance.start(properties: properties)
 
     return true
 }
-AdaptivePlus.instance.initialize(settings: AdaptivePlusSettings(apiKey: apiKey))
 ```
-where 
-- apiKey is apiKey from your admin panel on https://adaptive.plus/,
-- gender is either MALE or FEMALE
+1. Set AdaptivePlus Settings where apiKey is the apiKey from your admin panel on https://adaptive.plus/
+2. Initialize SDK with your AdaptivePlusSettings and optional boolean field (default value is 'false') 'verbose', when set to 'true' allows to see server response in debugging console
+3. Set AdaptivePlus user properties, where all fields are optional and are 'nil' by default
+4. Start AdaptivePlus SDK with your user properties
 
 #### 2. Create AdaptivePlus views and add to your code
 ```swift
@@ -67,7 +72,6 @@ class ViewController: UIViewController {
 
     func setupAdaptiveView() {
         apView = AdaptivePlus.instance.createAPView()
-        apView.translatesAutoresizingMaskIntoConstraints = false
         
         view.addSubview(apView)
 
