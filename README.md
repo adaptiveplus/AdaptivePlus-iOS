@@ -72,6 +72,7 @@ class ViewController: UIViewController {
 
     func setupAdaptiveView() {
         apView = AdaptivePlus.instance.createAPView()
+        apView.delegate = self
         
         view.addSubview(apView)
 
@@ -82,5 +83,48 @@ class ViewController: UIViewController {
         ])
     }
 }
+
+extension ViewController: APViewDelegate {
+    func didUpdateContent(view: APView) {
+        // continue logic after apView did update content
+    }
+}
 ```
 
+Now, you can visit your https://adaptive.plus/ admin panel and create some content. Do not forget to change the status of the content to active. Refresh the app page containing the APView. You should be able to observe the created content in your app.
+
+If you are not able to observe the created content - probable reasons are:
+- You forgot to activate the content in the AdaptivePlus admin panel
+- Check again the integration guide, maybe you missed something out
+
+## More info about AdaptivePlus SDK features
+### AdaptivePlus SDK switching off
+If at some point your app no longer needs the AdaptivePlus services, you can stop the work of it:
+```
+    AdaptivePlus.instance.stop()
+```
+### Removing cached data
+To delete AdaptivePlus cached data:
+```
+    AdaptivePlus.instance.removeCachedData()
+```
+### AdaptivePlusView
+To refresh the content of an APView:
+```
+    apView.reload()
+```
+To scroll APView content to start:
+```
+    apView.scrollToStart()
+```
+    
+## AdaptivePlus-iOS SDK (v2.0.0)
+Shows Instagram-like stories where you are able to display:
+ - images
+ - GIFs
+ - texts
+ - execute simplest set of actions on click/swipe
+
+Action list contains:
+1. Web URL Opening in WebView dialog window,
+2. Custom Action (should be implemented, nothing will happen otherwise)
