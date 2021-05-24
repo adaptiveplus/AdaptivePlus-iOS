@@ -488,7 +488,8 @@
                   {
                     "type": "OPEN_WEB_LINK",
                     "parameters": {
-                      "url": "https://sprintsquads.com/"
+                      "url": "https://sprintsquads.com/",
+                      "isWebView": true
                     }
                   }
                 ]

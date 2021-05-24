@@ -208,18 +208,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-@class NSCoder;
-
-SWIFT_CLASS("_TtC12AdaptivePlus6APView")
-@interface APView : UIView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
-
-
-
 @class UICollectionViewLayoutAttributes;
+@class NSCoder;
 
 /// A <code>UICollectionViewFlowLayout</code> subclass enables custom transitions between cells.
 SWIFT_CLASS("_TtC12AdaptivePlus28AnimatedCollectionViewLayout")
@@ -247,20 +237,7 @@ SWIFT_CLASS("_TtC12AdaptivePlus38AnimatedCollectionViewLayoutAttributes")
 
 
 
-@class UIViewController;
 
-@interface UINavigationController (SWIFT_EXTENSION(AdaptivePlus))
-/// The view controller at the top of the navigation stack is assumed to
-/// contain the <code>UIScrollView</code> to be tracked
-@property (nonatomic, readonly, strong) UIViewController * _Nullable childViewControllerForDeck;
-@end
-
-
-@interface UITabBarController (SWIFT_EXTENSION(AdaptivePlus))
-/// The view controller representing the selected tab is assumed to contain
-/// the <code>UIScrollView</code> to be tracked
-@property (nonatomic, readonly, strong) UIViewController * _Nullable childViewControllerForDeck;
-@end
 
 
 
