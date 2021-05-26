@@ -77,8 +77,8 @@ let user = AdaptivePlusUser(
     // In app Client Properties (Age/Gender/Country/VIP Status, etc)
     properties: ["gender": "MALE", "age": "20"])
 ```
-`userId: String?` - In app Client Identifier (Email/Phone/Internal user id)
-`userCoordinate: CLLocationCoordinate2D?` - user location (latitude & longitude). Required to display geo-oriented content to the user
+`userId: String?` - In app Client Identifier (Email/Phone/Internal user id)\
+`userCoordinate: CLLocationCoordinate2D?` - user location (latitude & longitude). Required to display geo-oriented content to the user\
 `properties: [String: String]?` - user properties, e.g. - age, gender, etc. User properties help SDK to select and show content relevant to the user
 
 ### Splash Screen Draft Campaigns
@@ -114,5 +114,5 @@ Do not forget to switch *Debug Mode* off for the release build of your app.
 2) Action list contains:\
 (1) *Web URL Opening in WebView dialog window*,\
 (2) *DeepLink call to any application in iOS*,\
-(3) *Send SMS & Call Phone*
+(3) *Send SMS & Call Phone*,\
 (4) *Custom action*
