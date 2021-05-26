@@ -113,5 +113,6 @@ Do not forget to switch *Debug Mode* off for the release build of your app.
 1) Shows SDK generated Splash Screen with countdown timer: able to display Images & GIFs & Texts, execute simplest set of actions on click, etc.
 2) Action list contains:\
 (1) *Web URL Opening in WebView dialog window*,\
-(2) *DeepLink call to Android Operating System*,\
+(2) *DeepLink call to any application if iOS*,\
 (3) *Send SMS & Call Phone*
+(4) *Custom action*
