@@ -25,18 +25,6 @@
                                 <action selector="showSplashScreenTouched:" destination="BYZ-38-t0r" id="FYu-Pe-lQ8"/>
                             </connections>
                         </barButtonItem>
-                        <rightBarButtonItems>
-                            <barButtonItem systemItem="refresh" id="plt-S0-31q">
-                                <connections>
-                                    <action selector="reloadButtonTouched:" destination="BYZ-38-t0r" id="65L-eP-Wxc"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem systemItem="rewind" id="CwG-Tk-xw6">
-                                <connections>
-                                    <action selector="scrollToStart:" destination="BYZ-38-t0r" id="kfL-lM-WG6"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

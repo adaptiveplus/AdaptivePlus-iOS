@@ -10,27 +10,12 @@ import AdaptivePlus
 
 class ViewController: UIViewController {
 
-//    var apView: APView!
-
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
 
-//        setupApativeView()
         showSplashScreen()
     }
-
-//    func setupApativeView() {
-//        apView = AdaptivePlus.instance.createAPView()
-//        view.addSubview(apView)
-//
-//        NSLayoutConstraint.activate([
-//            apView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 32),
-//            apView.leftAnchor.constraint(equalTo: view.leftAnchor),
-//            apView.rightAnchor.constraint(equalTo: view.rightAnchor)
-//        ])
-//
-//    }
 
     func showSplashScreen() {
         let user = AdaptivePlusUser(
@@ -42,8 +27,7 @@ class ViewController: UIViewController {
             properties: ["gender": "MALE", "age": "20"])
 
         let customActionTriggered: ((String, [String : Any]) -> Void) = { name, parameters in
-            print("Custom action name: \(name)")
-            print("Custom action parameters: \(parameters)")
+            print("Custom action triggered with name: \(name) and parameters: \(parameters)")
         }
 
         let splashScreenFinished: (() -> Void) = {
@@ -56,14 +40,6 @@ class ViewController: UIViewController {
             customActionTriggered: customActionTriggered, // optional
             finished: splashScreenFinished // optional
         )
-    }
-
-    @IBAction func reloadButtonTouched(_ sender: Any) {
-//        apView.reload()
-    }
-
-    @IBAction func scrollToStart(_ sender: Any) {
-//        apView.scrollToStart()
     }
 
     @IBAction func showSplashScreenTouched(_ sender: Any) {
