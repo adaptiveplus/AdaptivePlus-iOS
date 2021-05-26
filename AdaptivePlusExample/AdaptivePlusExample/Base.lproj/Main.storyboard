@@ -20,6 +20,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Example app" id="Hhy-uO-ufZ">
+                        <barButtonItem key="leftBarButtonItem" title="Show splash screen" id="8Yi-U6-mkY">
+                            <connections>
+                                <action selector="showSplashScreenTouched:" destination="BYZ-38-t0r" id="FYu-Pe-lQ8"/>
+                            </connections>
+                        </barButtonItem>
                         <rightBarButtonItems>
                             <barButtonItem systemItem="refresh" id="plt-S0-31q">
                                 <connections>
