@@ -16,7 +16,7 @@
 Add following to your Podfile
 ```
 platform :ios, '11.0'
-pod 'AdaptivePlus-iOS', '0.0.31'
+pod 'AdaptivePlus-iOS', '2.0.0'
 ```
 and run following command.
 
@@ -29,102 +29,89 @@ $ pod install
 #### 1. Put following code to your AppDelegate.swift file
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    // #1
-    let settings = AdaptivePlusSettings(apiKey: "YOUR_API_KEY")
-    
-    // #2
-    AdaptivePlus.instance.initialize(settings: settings, verbose: true/false)
-    
-    // #3
-    let properties = AdaptivePlusUserProperties(
-        // In app Client Identifier (Email/Phone/Internal user id)
-        userId: nil,
-        userCoordinate: nil,
-        // In app Client Properties (Age/Gender/Country/VIP Status, etc)
-        properties: [
-            "gender": "MALE",
-            "age": "20"
-        ])
-        
-    // #4
-    AdaptivePlus.instance.start(properties: properties)
 
+    let settings = AdaptivePlusSettings(apiKey: "YOUR_API_KEY")
+    AdaptivePlus.initialize(settings: settings, verbose: true/false)
+    
     return true
 }
 ```
-1. Set AdaptivePlus Settings where apiKey is the apiKey from your admin panel on https://adaptive.plus/
-2. Initialize SDK with your AdaptivePlusSettings and optional boolean field (default value is 'false') 'verbose', when set to 'true' allows to see server response in debugging console
-3. Set AdaptivePlus user properties, where all fields are optional and are 'nil' by default
-4. Start AdaptivePlus SDK with your user properties
+1. Create ```AdaptivePlusSettings``` with ```apiKey``` that you received upon account registration
+2. Initialize SDK with your AdaptivePlusSettings and optional boolean field (default value is 'false') 'verbose', when set to 'true' allows to observe network logs of the SDK
 
-#### 2. Create AdaptivePlus views and add to your code
+#### 2. Show AdaptivePlus Splash Screen on app startup or after user log in (or at any suitable moment)
 ```swift
-// Example
 class ViewController: UIViewController {
-
-    var apView: APView!
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        setupAdaptiveView()
-    }
-
-    func setupAdaptiveView() {
-        apView = AdaptivePlus.instance.createAPView()
-        apView.delegate = self
-        
-        view.addSubview(apView)
-
-        NSLayoutConstraint.activate([
-            apView.leftAnchor.constraint(equalTo: view.leftAnchor),
-            apView.rightAnchor.constraint(equalTo: view.rightAnchor),
-            apView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-        ])
-    }
-}
-
-extension ViewController: APViewDelegate {
-    func didUpdateContent(view: APView) {
-        // continue logic after apView did update content
+        AdaptivePlus.showSplashScreen()
     }
 }
 ```
 
-Now, you can visit your https://adaptive.plus/ admin panel and create some content. Do not forget to change the status of the content to active. Refresh the app page containing the APView. You should be able to observe the created content in your app.
+Now, you can visit the admin panel and create some content. Do not forget to change the status of the content to **active**. 
+On the first `showSplashScreen` method call, the SDK preloads the splash screen contents to your device, and will skip the splash screen show to avoid loading delay. On the subsequent method calls, probably, the splash screen contents are already preloaded, and the splash screen will be displayed on the screen
 
 If you are not able to observe the created content - probable reasons are:
 - You forgot to activate the content in the AdaptivePlus admin panel
 - Check again the integration guide, maybe you missed something out
+- The SDK couldn't preload the contents on the previous `showSplashScreen` method calls due to network issues or internal sdk issues
 
 ## More info about AdaptivePlus SDK features
-### AdaptivePlus SDK switching off
-If at some point your app no longer needs the AdaptivePlus services, you can stop the work of it:
+### AdaptivePlus Personalized Experience
+To make SDK experience more personalized, you can provide following user data:
+```swift
+AdaptivePlus.showSplashScreen(
+    user: user,
+    hasDrafts: true,
+    customActionTriggered: customActionTriggered,
+    finished: finished)
 ```
-    AdaptivePlus.instance.stop()
+`user` - user of your system/service, useful for identifying the same user across multiple devices
+```swift
+let user = AdaptivePlusUser(
+    // In app Client Identifier (Email/Phone/Internal user id)
+    userId: "test user id",
+    // Client location (latitude & longitude)
+    userCoordinate: CLLocationCoordinate2D(latitude: 10.0, longitude: 123.0),
+    // In app Client Properties (Age/Gender/Country/VIP Status, etc)
+    properties: ["gender": "MALE", "age": "20"])
 ```
-### Removing cached data
-To delete AdaptivePlus cached data:
-```
-    AdaptivePlus.instance.removeCachedData()
-```
-### AdaptivePlusView
-To refresh the content of an APView:
-```
-    apView.reload()
-```
-To scroll APView content to start:
-```
-    apView.scrollToStart()
-```
-    
-## AdaptivePlus-iOS SDK (v2.0.0)
-Shows Instagram-like stories where you are able to display:
- - images
- - GIFs
- - texts
- - execute simplest set of actions on click/swipe
+`userId: String?` - In app Client Identifier (Email/Phone/Internal user id)
+`userCoordinate: CLLocationCoordinate2D?` - user location (latitude & longitude). Required to display geo-oriented content to the user
+`properties: [String: String]?` - user properties, e.g. - age, gender, etc. User properties help SDK to select and show content relevant to the user
 
-Action list contains:
-1. Web URL Opening in WebView dialog window,
-2. Custom Action (should be implemented, nothing will happen otherwise)
+### Splash Screen Draft Campaigns
+To take a look at splash screen campaigns that are on moderation (not active) state pass `hasDrafts` parameter as `true` to `showSplashScreen` method:
+```swift
+AdaptivePlus.showSplashScreen(hasDrafts: true)
+```
+
+### Splash Screen Callbacks
+To handle splash screen callbacks you should provide:
+```swift
+let customActionTriggered: ((String, [String : Any]) -> Void) = { name, parameters in
+    // TODO: your implementation of Adaptive Plus Custom Action
+}
+
+let splashScreenFinished: (() -> Void) = {
+    // TODO: actions to do on the splash screen finish
+}
+AdaptivePlus.showSplashScreen(
+    customActionTriggered: customActionTriggered,
+    finished: splashScreenFinished
+)
+```
+### AdaptivePlus Debug Mode
+To observe network logs of the SDK - pass `true` to `verbose` method:
+```swift
+AdaptivePlus.initialize(settings: AdaptivePlusSettings(apiKey: apiKey), verbose: true)
+```
+Do not forget to switch *Debug Mode* off for the release build of your app.
+
+## AdaptivePlus-iOS SDK (v2.0.0)
+1) Shows SDK generated Splash Screen with countdown timer: able to display Images & GIFs & Texts, execute simplest set of actions on click, etc.
+2) Action list contains:\
+(1) *Web URL Opening in WebView dialog window*,\
+(2) *DeepLink call to Android Operating System*,\
+(3) *Send SMS & Call Phone*

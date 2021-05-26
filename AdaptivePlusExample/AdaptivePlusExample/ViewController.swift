@@ -7,6 +7,7 @@
 
 import UIKit
 import AdaptivePlus
+import CoreLocation
 
 class ViewController: UIViewController {
 
@@ -22,7 +23,7 @@ class ViewController: UIViewController {
             // In app Client Identifier (Email/Phone/Internal user id)
             userId: nil,
             // Client location
-            userCoordinate: nil,
+            userCoordinate: CLLocationCoordinate2D(latitude: 10.0, longitude: 123.0),
             // In app Client Properties (Age/Gender/Country/VIP Status, etc)
             properties: ["gender": "MALE", "age": "20"])
 
@@ -33,6 +34,7 @@ class ViewController: UIViewController {
         let splashScreenFinished: (() -> Void) = {
             print("Splash screen finished")
         }
+        AdaptivePlus.showSplashScreen(hasDrafts: true)
 
         AdaptivePlus.showSplashScreen(
             user: user, // optional

@@ -18,10 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        AdaptivePlus.initialize(
-            settings: AdaptivePlusSettings(apiKey: apiKey),
-            verbose: false // optional, default value - false
-        )
+        AdaptivePlus.initialize(settings: AdaptivePlusSettings(apiKey: apiKey), verbose: true)
+
         return true
     }
 
