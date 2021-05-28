@@ -4,45 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>#1.json</key>
-		<data>
-		B67XJFDLj67MUJFzRpnPz5hA1tk=
-		</data>
 		<key>Assets.car</key>
 		<data>
 		mEdOF4hgCXLX74qYfRNuTQJO2Q4=
-		</data>
-		<key>CreateFramework.sh</key>
-		<data>
-		f6U9rewRH+9sQ+y20zZ81E6SgjU=
-		</data>
-		<key>Frameworks/Pods_AdaptivePlus.framework/Info.plist</key>
-		<data>
-		sQrwZkJkbJCEHKeUflwmPzzTBr4=
-		</data>
-		<key>Frameworks/Pods_AdaptivePlus.framework/Pods_AdaptivePlus</key>
-		<data>
-		6Yi2Yv2T6Idb3lUHuTqXtcMR83c=
-		</data>
-		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		8aDy86qM3UEKc21q+jxUtp+oU8Y=
-		</data>
-		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		eJz/G9DRt2Y/j0ET6AwLFD6I53s=
-		</data>
-		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		weS0kLj4bQdwllAyv/mK1PJ2MYA=
-		</data>
-		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeResources</key>
-		<data>
-		ZpqeMBkZ9+p5cTyTu8ouzU7LAY4=
-		</data>
-		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		XkwtoSbKoyQhdN4CamizhwR3Cjo=
 		</data>
 		<key>Headers/AdaptivePlus-Swift.h</key>
 		<data>
@@ -54,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		klrL7QJG5R2kXWWG1ZKbr5U2hYA=
+		ecqr5ch8qg2/NVkCAEa21vFbb8E=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
@@ -87,74 +51,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>#1.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fWmzXLafunWjgjjGBYvQxn0mh+l21fcGg1N4Pzc12uc=
-			</data>
-		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Tb5/nLDpcoyqKQyFqVaHEf/EJgvi2t9p+g8EZoY+tdk=
-			</data>
-		</dict>
-		<key>CreateFramework.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			d0SX73opyq/xMEv2pYrp+7vWPtNMRQ5rQmB8fYXaa7Y=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AdaptivePlus.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oqlQQ3r0lswUbwDEYLp61Zw7jOqKScjQVHRrZHjFqb0=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AdaptivePlus.framework/Pods_AdaptivePlus</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UVfuob7ae2dNyFy4Y16wIv7fbUT4vJvjRLsA5J5Arzo=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CYbHvxmvRJ3lPP7XR+qeYHbNUEw7CVQ2RaasbTv4JTg=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			liJFL0LYGet5t2Gc4r2sruS6uXxSdqUmbA+oF0PPq5w=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0jFa/nHxGC+ZwrVFFU6mXApVjAug2e+Cxf6vZS7NO6A=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Lp+POApaFkz2W+3mvwL6l4dETHH/wLCnOgfKFEdwG9A=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AdaptivePlus.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			arAXBc0pGP1qPaJZL7j3KrtCI0O9s1L0/sZggCRofRY=
 			</data>
 		</dict>
 		<key>Headers/AdaptivePlus-Swift.h</key>
