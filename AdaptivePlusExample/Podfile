@@ -6,6 +6,6 @@ target 'AdaptivePlusExample' do
   use_frameworks!
 
   # Pods for AdaptivePlusExample
-  pod 'AdaptivePlus-iOS', '~> 2.0.2'
+  pod 'AdaptivePlus-iOS', '~> 2.0.3'
 
 end

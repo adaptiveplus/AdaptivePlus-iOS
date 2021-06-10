@@ -102,14 +102,14 @@ AdaptivePlus.showSplashScreen(
     finished: splashScreenFinished
 )
 ```
-### AdaptivePlus Debug Mode
+### AdaptivePlus Verbose Mode
 To observe network logs of the SDK - pass `true` to `verbose` method:
 ```swift
 AdaptivePlus.initialize(settings: AdaptivePlusSettings(apiKey: apiKey), verbose: true)
 ```
-Do not forget to switch *Debug Mode* off for the release build of your app.
+Do not forget to switch *Verbose Mode* off for the release build of your app.
 
-## AdaptivePlus-iOS SDK (v2.0.0)
+## AdaptivePlus-iOS SDK (v2.0.3)
 1) Shows SDK generated Splash Screen with countdown timer: able to display Images & GIFs & Texts, execute simplest set of actions on click, etc.
 2) Action list contains:\
 (1) *Web URL Opening in WebView dialog window*,\
