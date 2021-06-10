@@ -27,6 +27,6 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.dependency "SDWebImage", "~> 5.10.4"
-  spec.dependency "AdaptiveFonts", "~> 1.0.3"
+  spec.dependency "AdaptiveFonts", "~> 1.0.4"
 
 end
