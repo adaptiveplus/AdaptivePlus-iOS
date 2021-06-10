@@ -109,7 +109,7 @@ AdaptivePlus.initialize(settings: AdaptivePlusSettings(apiKey: apiKey), verbose:
 ```
 Do not forget to switch *Verbose Mode* off for the release build of your app.
 
-## AdaptivePlus-iOS SDK (v2.0.3)
+## AdaptivePlus-iOS SDK (v2.0.4)
 1) Shows SDK generated Splash Screen with countdown timer: able to display Images & GIFs & Texts, execute simplest set of actions on click, etc.
 2) Action list contains:\
 (1) *Web URL Opening in WebView dialog window*,\
