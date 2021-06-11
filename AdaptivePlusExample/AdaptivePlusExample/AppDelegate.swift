@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     // Use an Api Key generated from the adaptive.plus admin panel, go to "Integrations"
-    let apiKey = "GDP60U9b2QNCQVEu"
+    let apiKey = "kz2SNtDdQcCMACvh"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 

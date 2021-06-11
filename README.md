@@ -16,7 +16,7 @@
 Add following to your Podfile
 ```
 platform :ios, '11.0'
-pod 'AdaptivePlus-iOS', '2.0.0'
+pod 'AdaptivePlus-iOS', '2.0.5'
 ```
 and run following command.
 
@@ -109,7 +109,7 @@ AdaptivePlus.initialize(settings: AdaptivePlusSettings(apiKey: apiKey), verbose:
 ```
 Do not forget to switch *Verbose Mode* off for the release build of your app.
 
-## AdaptivePlus-iOS SDK (v2.0.4)
+## AdaptivePlus-iOS SDK (2.0.5)
 1) Shows SDK generated Splash Screen with countdown timer: able to display Images & GIFs & Texts, execute simplest set of actions on click, etc.
 2) Action list contains:\
 (1) *Web URL Opening in WebView dialog window*,\
