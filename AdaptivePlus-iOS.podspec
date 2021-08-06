@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "AdaptivePlus-iOS"
-  spec.version="2.0.5"
+  spec.version="2.0.6"
   spec.summary      = "AdaptivePlus-iOS"
   spec.description  = <<-DESC
   Gitlab for marketing professionals.
@@ -21,9 +21,7 @@ Pod::Spec.new do |spec|
   spec.swift_version          = "4.2"
   spec.ios.deployment_target  = "11.0"
   spec.source       = { :git => "https://github.com/adaptiveplus/AdaptivePlus-iOS.git", :tag => "#{spec.version}" }
-  spec.public_header_files    = "AdaptivePlus.framework/Headers/*.h"
-  spec.source_files           = "AdaptivePlus.framework/Headers/*.h"
-  spec.vendored_frameworks    = "AdaptivePlus.framework"
+  spec.vendored_frameworks    = "AdaptivePlus.xcframework"
   spec.pod_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.dependency "SDWebImage", "~> 5.10.4"

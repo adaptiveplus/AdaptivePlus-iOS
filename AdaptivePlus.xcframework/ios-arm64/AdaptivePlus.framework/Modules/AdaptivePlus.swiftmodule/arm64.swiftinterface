@@ -1,0 +1,96 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdaptivePlus
+import AdaptiveFonts
+@_exported import AdaptivePlus
+import CoreGraphics
+import CoreLocation
+import CoreTelephony
+import Foundation
+import MessageUI
+import Photos
+import SDWebImage
+import SQLite3
+import SafariServices
+import Swift
+import SystemConfiguration
+import UIKit
+public protocol APViewDelegate : AnyObject {
+  func apViewDidUpdateContent(view: AdaptivePlus.APView)
+  func apViewDidTriggerCustomAction(view: AdaptivePlus.APView, name: Swift.String, parameters: [Swift.String : Any])
+}
+@objc @_hasMissingDesignatedInitializers public class APView : UIKit.UIView {
+  weak public var delegate: AdaptivePlus.APViewDelegate?
+  public var publicationPageKey: Swift.String {
+    get
+  }
+  convenience public init(publicationPageKey: Swift.String)
+  @objc deinit
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+}
+extension APView {
+  public func reload()
+  public func scrollToStart()
+}
+public protocol APViewlessDelegate : AnyObject {
+  func apViewlessDidFinishStories()
+  func apViewlessDidTriggerCustomAction(name: Swift.String, parameters: [Swift.String : Any])
+}
+@_hasMissingDesignatedInitializers public class APViewless {
+  weak public var delegate: AdaptivePlus.APViewlessDelegate?
+  public var publicationPageKey: Swift.String {
+    get
+  }
+  convenience public init(publicationPageKey: Swift.String)
+  public func preloadContents()
+  public func showStory()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class AdaptivePlus {
+  public static func initialize(settings: AdaptivePlus.AdaptivePlusSettings, verbose: Swift.Bool = false)
+  public static func showSplashScreen(user: AdaptivePlus.AdaptivePlusUser? = nil, hasDrafts: Swift.Bool = false, customActionTriggered: ((Swift.String, [Swift.String : Any]) -> Swift.Void)? = nil, finished: (() -> Swift.Void)? = nil)
+  public static func start(user: AdaptivePlus.AdaptivePlusUser? = nil, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc deinit
+}
+public class AdaptivePlusSettings : Swift.Codable, Swift.Equatable {
+  public init(url: Swift.String, clientId: Swift.String, clientSecret: Swift.String, apiKey: Swift.String)
+  public static func == (lhs: AdaptivePlus.AdaptivePlusSettings, rhs: AdaptivePlus.AdaptivePlusSettings) -> Swift.Bool
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public class AdaptivePlusUser : Swift.Codable, Swift.Equatable {
+  public enum Gender : Swift.String {
+    case male
+    case female
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public init(userId: Swift.String? = nil, gender: AdaptivePlus.AdaptivePlusUser.Gender? = nil, age: Swift.Int? = nil, userCoordinate: CoreLocation.CLLocationCoordinate2D? = nil, properties: [Swift.String : Swift.String]? = nil)
+  public static func == (lhs: AdaptivePlus.AdaptivePlusUser, rhs: AdaptivePlus.AdaptivePlusUser) -> Swift.Bool
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc @_inheritsConvenienceInitializers open class AnimatedCollectionViewLayout : UIKit.UICollectionViewFlowLayout {
+  @objc override dynamic open class var layoutAttributesClass: Swift.AnyClass {
+    @objc get
+  }
+  @objc override dynamic open func layoutAttributesForElements(in rect: CoreGraphics.CGRect) -> [UIKit.UICollectionViewLayoutAttributes]?
+  @objc override dynamic open func shouldInvalidateLayout(forBoundsChange newBounds: CoreGraphics.CGRect) -> Swift.Bool
+  @objc deinit
+  @objc override dynamic public init()
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+@objc @_inheritsConvenienceInitializers open class AnimatedCollectionViewLayoutAttributes : UIKit.UICollectionViewLayoutAttributes {
+  @objc override dynamic open func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc override dynamic open func isEqual(_ object: Any?) -> Swift.Bool
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension AdaptivePlus.AdaptivePlusUser.Gender : Swift.Equatable {}
+extension AdaptivePlus.AdaptivePlusUser.Gender : Swift.Hashable {}
+extension AdaptivePlus.AdaptivePlusUser.Gender : Swift.RawRepresentable {}
