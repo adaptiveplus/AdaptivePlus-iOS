@@ -15,37 +15,37 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
 
-        showSplashScreen()
+//        showSplashScreen()
     }
 
     func showSplashScreen() {
-        let user = AdaptivePlusUser(
-            // In app Client Identifier (Email/Phone/Internal user id)
-            userId: nil,
-            // Client location
-            userCoordinate: CLLocationCoordinate2D(latitude: 10.0, longitude: 123.0),
-            // In app Client Properties (Age/Gender/Country/VIP Status, etc)
-            properties: ["gender": "MALE", "age": "20"])
-
-        let customActionTriggered: ((String, [String : Any]) -> Void) = { name, parameters in
-            print("Custom action triggered with name: \(name) and parameters: \(parameters)")
-        }
-
-        let splashScreenFinished: (() -> Void) = {
-            print("Splash screen finished")
-        }
-        AdaptivePlus.showSplashScreen(hasDrafts: true)
-
-        AdaptivePlus.showSplashScreen(
-            user: user, // optional
-            hasDrafts: true, // optional, default value - false
-            customActionTriggered: customActionTriggered, // optional
-            finished: splashScreenFinished // optional
-        )
+//        let user = AdaptivePlusUser(
+//            // In app Client Identifier (Email/Phone/Internal user id)
+//            userId: nil,
+//            // Client location
+//            userCoordinate: CLLocationCoordinate2D(latitude: 10.0, longitude: 123.0),
+//            // In app Client Properties (Age/Gender/Country/VIP Status, etc)
+//            properties: ["gender": "MALE", "age": "20"])
+//
+//        let customActionTriggered: ((String, [String : Any]) -> Void) = { name, parameters in
+//            print("Custom action triggered with name: \(name) and parameters: \(parameters)")
+//        }
+//
+//        let splashScreenFinished: (() -> Void) = {
+//            print("Splash screen finished")
+//        }
+//        AdaptivePlus.showSplashScreen(hasDrafts: true)
+//
+//        AdaptivePlus.showSplashScreen(
+//            user: user, // optional
+//            hasDrafts: true, // optional, default value - false
+//            customActionTriggered: customActionTriggered, // optional
+//            finished: splashScreenFinished // optional
+//        )
     }
 
     @IBAction func showSplashScreenTouched(_ sender: Any) {
-        showSplashScreen()
+//        showSplashScreen()
     }
 
 }

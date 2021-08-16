@@ -1,11 +1,11 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdaptivePlus
-import AdaptiveFonts
 @_exported import AdaptivePlus
 import CoreGraphics
 import CoreLocation
 import CoreTelephony
+import CoreText
 import Foundation
 import MessageUI
 import Photos
@@ -16,11 +16,11 @@ import Swift
 import SystemConfiguration
 import UIKit
 public protocol APViewDelegate : AnyObject {
-  func apViewDidUpdateContent(view: AdaptivePlus.APView)
-  func apViewDidTriggerCustomAction(view: AdaptivePlus.APView, name: Swift.String, parameters: [Swift.String : Any])
+  func apViewDidUpdateContent(view: APView)
+  func apViewDidTriggerCustomAction(view: APView, name: Swift.String, parameters: [Swift.String : Any])
 }
 @objc @_hasMissingDesignatedInitializers public class APView : UIKit.UIView {
-  weak public var delegate: AdaptivePlus.APViewDelegate?
+  weak public var delegate: APViewDelegate?
   public var publicationPageKey: Swift.String {
     get
   }
@@ -37,7 +37,7 @@ public protocol APViewlessDelegate : AnyObject {
   func apViewlessDidTriggerCustomAction(name: Swift.String, parameters: [Swift.String : Any])
 }
 @_hasMissingDesignatedInitializers public class APViewless {
-  weak public var delegate: AdaptivePlus.APViewlessDelegate?
+  weak public var delegate: APViewlessDelegate?
   public var publicationPageKey: Swift.String {
     get
   }
@@ -47,14 +47,14 @@ public protocol APViewlessDelegate : AnyObject {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class AdaptivePlus {
-  public static func initialize(settings: AdaptivePlus.AdaptivePlusSettings, verbose: Swift.Bool = false)
-  public static func showSplashScreen(user: AdaptivePlus.AdaptivePlusUser? = nil, hasDrafts: Swift.Bool = false, customActionTriggered: ((Swift.String, [Swift.String : Any]) -> Swift.Void)? = nil, finished: (() -> Swift.Void)? = nil)
-  public static func start(user: AdaptivePlus.AdaptivePlusUser? = nil, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  public static func initialize(settings: AdaptivePlusSettings, verbose: Swift.Bool = false)
+  public static func showSplashScreen(user: AdaptivePlusUser? = nil, hasDrafts: Swift.Bool = false, customActionTriggered: ((Swift.String, [Swift.String : Any]) -> Swift.Void)? = nil, finished: (() -> Swift.Void)? = nil)
+  public static func start(user: AdaptivePlusUser? = nil, completion: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc deinit
 }
 public class AdaptivePlusSettings : Swift.Codable, Swift.Equatable {
   public init(url: Swift.String, clientId: Swift.String, clientSecret: Swift.String, apiKey: Swift.String)
-  public static func == (lhs: AdaptivePlus.AdaptivePlusSettings, rhs: AdaptivePlus.AdaptivePlusSettings) -> Swift.Bool
+  public static func == (lhs: AdaptivePlusSettings, rhs: AdaptivePlusSettings) -> Swift.Bool
   required public init(from decoder: Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
@@ -69,8 +69,8 @@ public class AdaptivePlusUser : Swift.Codable, Swift.Equatable {
       get
     }
   }
-  public init(userId: Swift.String? = nil, gender: AdaptivePlus.AdaptivePlusUser.Gender? = nil, age: Swift.Int? = nil, userCoordinate: CoreLocation.CLLocationCoordinate2D? = nil, properties: [Swift.String : Swift.String]? = nil)
-  public static func == (lhs: AdaptivePlus.AdaptivePlusUser, rhs: AdaptivePlus.AdaptivePlusUser) -> Swift.Bool
+  public init(userId: Swift.String? = nil, gender: AdaptivePlusUser.Gender? = nil, age: Swift.Int? = nil, userCoordinate: CoreLocation.CLLocationCoordinate2D? = nil, properties: [Swift.String : Swift.String]? = nil)
+  public static func == (lhs: AdaptivePlusUser, rhs: AdaptivePlusUser) -> Swift.Bool
   required public init(from decoder: Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
@@ -91,6 +91,6 @@ public class AdaptivePlusUser : Swift.Codable, Swift.Equatable {
   @objc deinit
   @objc override dynamic public init()
 }
-extension AdaptivePlus.AdaptivePlusUser.Gender : Swift.Equatable {}
-extension AdaptivePlus.AdaptivePlusUser.Gender : Swift.Hashable {}
-extension AdaptivePlus.AdaptivePlusUser.Gender : Swift.RawRepresentable {}
+extension AdaptivePlusUser.Gender : Swift.Equatable {}
+extension AdaptivePlusUser.Gender : Swift.Hashable {}
+extension AdaptivePlusUser.Gender : Swift.RawRepresentable {}

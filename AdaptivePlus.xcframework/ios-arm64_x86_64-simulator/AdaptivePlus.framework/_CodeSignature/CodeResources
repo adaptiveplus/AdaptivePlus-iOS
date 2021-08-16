@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kgfnEHuSruid7tbqry84GrA+XKo=
+		mm58cq62/mZi6oqn/2IxZW88cpA=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KCoSvAbf23hj27RcLWYNIp6jS0I=
+		TnkfWQFkMFFOROTSEknPc/B3hE8=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9+eiQxRFZO4nwOI9agxtRGY1JtQ=
+		Oi3zlI1AwUHxkGyQwxpG/QjQW/A=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		KCoSvAbf23hj27RcLWYNIp6jS0I=
+		TnkfWQFkMFFOROTSEknPc/B3hE8=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		9+eiQxRFZO4nwOI9agxtRGY1JtQ=
+		Oi3zlI1AwUHxkGyQwxpG/QjQW/A=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LI6lK5MDfEQIhb1e9MXiU8dt6og=
+		VxfMLOts8KFyjzTbcRAtSgsU0+o=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TW+u+AmpyL2NONpuTfaJlYHnwhA=
+		9UNuf920bRzI8oe1m767zs2MVGE=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		LI6lK5MDfEQIhb1e9MXiU8dt6og=
+		VxfMLOts8KFyjzTbcRAtSgsU0+o=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		TW+u+AmpyL2NONpuTfaJlYHnwhA=
+		9UNuf920bRzI8oe1m767zs2MVGE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,14 +107,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B2/OKT8/rgTzsNwzK7gLqyhSBFQyRYfnySkRZdr5BSo=
+			RGfUEviWs39ltglP+nmUXjP7l3q9hyrWxl+3sWW8bu4=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DA90xIYIea7WYsCD+APKVwKc8FVM3lQieGT/ac98vT4=
+			Ar3xYNl2Jx1sZB8O1fGytoKKmg204kM8RL5081foEUY=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
@@ -128,14 +128,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B2/OKT8/rgTzsNwzK7gLqyhSBFQyRYfnySkRZdr5BSo=
+			RGfUEviWs39ltglP+nmUXjP7l3q9hyrWxl+3sWW8bu4=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DA90xIYIea7WYsCD+APKVwKc8FVM3lQieGT/ac98vT4=
+			Ar3xYNl2Jx1sZB8O1fGytoKKmg204kM8RL5081foEUY=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7PIQW+sd2CbFzKI63UrPSHhQM+s7gpImxQr4zo9DxCQ=
+			ceKrLkdUvPuaJYxASxPInsybv+CJ5YL3tu7bCpiF/4Q=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j9LPSlO5Wz4prByLfJF5OM6Cadms+jMOIkz2VrxBzhY=
+			IXGpMvramHIk5VHOuPNE/c5KGWVdsApRsOUllNUQ1so=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftdoc</key>
@@ -170,14 +170,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7PIQW+sd2CbFzKI63UrPSHhQM+s7gpImxQr4zo9DxCQ=
+			ceKrLkdUvPuaJYxASxPInsybv+CJ5YL3tu7bCpiF/4Q=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j9LPSlO5Wz4prByLfJF5OM6Cadms+jMOIkz2VrxBzhY=
+			IXGpMvramHIk5VHOuPNE/c5KGWVdsApRsOUllNUQ1so=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
