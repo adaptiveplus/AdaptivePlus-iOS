@@ -33,7 +33,7 @@ extension APView {
   public func scrollToStart()
 }
 public protocol APViewlessDelegate : AnyObject {
-  func apViewlessDidFinishStories()
+  func apViewlessDidFinishStories(viewless: APViewless)
   func apViewlessDidTriggerCustomAction(name: Swift.String, parameters: [Swift.String : Any])
 }
 @_hasMissingDesignatedInitializers public class APViewless {
@@ -50,6 +50,7 @@ public protocol APViewlessDelegate : AnyObject {
   public static func initialize(settings: AdaptivePlusSettings, verbose: Swift.Bool = false)
   public static func showSplashScreen(user: AdaptivePlusUser? = nil, hasDrafts: Swift.Bool = false, customActionTriggered: ((Swift.String, [Swift.String : Any]) -> Swift.Void)? = nil, finished: (() -> Swift.Void)? = nil)
   public static func start(user: AdaptivePlusUser? = nil, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  public static func set(language: Language)
   @objc deinit
 }
 public class AdaptivePlusSettings : Swift.Codable, Swift.Equatable {
@@ -91,6 +92,21 @@ public class AdaptivePlusUser : Swift.Codable, Swift.Equatable {
   @objc deinit
   @objc override dynamic public init()
 }
+extension AdaptivePlus {
+  public enum Language {
+    case en
+    case ru
+    case kz
+    case `default`
+    public static func == (a: Language, b: Language) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+}
 extension AdaptivePlusUser.Gender : Swift.Equatable {}
 extension AdaptivePlusUser.Gender : Swift.Hashable {}
 extension AdaptivePlusUser.Gender : Swift.RawRepresentable {}
+extension Language : Swift.Equatable {}
+extension Language : Swift.Hashable {}

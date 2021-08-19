@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		mJdfW5A6u4AG2P/7rUiqtlppkkk=
+		Z3B+MYW6SQPbjbHD9pd9A1Pa6O8=
 		</data>
 		<key>Headers/AdaptivePlus-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mm58cq62/mZi6oqn/2IxZW88cpA=
+		wxGhba9pkTFQ4Al5JdPcBwgPVJo=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TnkfWQFkMFFOROTSEknPc/B3hE8=
+		5eRe3OgfMBxYlcjdfX7SsjM5kE0=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Oi3zlI1AwUHxkGyQwxpG/QjQW/A=
+		1o+L8+XFo535fjBTGgHoAE9P++4=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		TnkfWQFkMFFOROTSEknPc/B3hE8=
+		5eRe3OgfMBxYlcjdfX7SsjM5kE0=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Oi3zlI1AwUHxkGyQwxpG/QjQW/A=
+		1o+L8+XFo535fjBTGgHoAE9P++4=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VxfMLOts8KFyjzTbcRAtSgsU0+o=
+		rR1c0DmxEiN+bFbIxrjBmPw9t+I=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9UNuf920bRzI8oe1m767zs2MVGE=
+		Fs6RF0z8V5Y0PSxDUNi8EkOjFU0=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		VxfMLOts8KFyjzTbcRAtSgsU0+o=
+		rR1c0DmxEiN+bFbIxrjBmPw9t+I=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		9UNuf920bRzI8oe1m767zs2MVGE=
+		Fs6RF0z8V5Y0PSxDUNi8EkOjFU0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MLkoYuB7BA/nHAmvV6b1cAVAAwOAPVImOgAhyQvj+Q0=
+			q+0KKJfwfKd4gGYEDv3Oz//Y4byiVkIjFpyT5OgpQzI=
 			</data>
 		</dict>
 		<key>Headers/AdaptivePlus-Swift.h</key>
@@ -107,14 +107,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RGfUEviWs39ltglP+nmUXjP7l3q9hyrWxl+3sWW8bu4=
+			QlDIdcWEv1dlFcT4D8QofSME1rdfO5SGcc00rbr/kQU=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ar3xYNl2Jx1sZB8O1fGytoKKmg204kM8RL5081foEUY=
+			Cxksw8cpXCaflDQ4DG7wQcAGG9CyVgiozt3b3jFHlWs=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
@@ -128,14 +128,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RGfUEviWs39ltglP+nmUXjP7l3q9hyrWxl+3sWW8bu4=
+			QlDIdcWEv1dlFcT4D8QofSME1rdfO5SGcc00rbr/kQU=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ar3xYNl2Jx1sZB8O1fGytoKKmg204kM8RL5081foEUY=
+			Cxksw8cpXCaflDQ4DG7wQcAGG9CyVgiozt3b3jFHlWs=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ceKrLkdUvPuaJYxASxPInsybv+CJ5YL3tu7bCpiF/4Q=
+			5SgOpQqsJDpBfOHFeXFKA1tBdKBy9t/E4Bj1gg+9Qxw=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IXGpMvramHIk5VHOuPNE/c5KGWVdsApRsOUllNUQ1so=
+			Rr6A6nBgrZQrsRqOdoAA/4Rep5NL0mlVFHa8giQWV48=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftdoc</key>
@@ -170,14 +170,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ceKrLkdUvPuaJYxASxPInsybv+CJ5YL3tu7bCpiF/4Q=
+			5SgOpQqsJDpBfOHFeXFKA1tBdKBy9t/E4Bj1gg+9Qxw=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IXGpMvramHIk5VHOuPNE/c5KGWVdsApRsOUllNUQ1so=
+			Rr6A6nBgrZQrsRqOdoAA/4Rep5NL0mlVFHa8giQWV48=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
