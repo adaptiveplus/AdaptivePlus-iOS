@@ -15,6 +15,17 @@ import SafariServices
 import Swift
 import SystemConfiguration
 import UIKit
+public enum APLanguage {
+  case en
+  case ru
+  case kz
+  case `default`
+  public static func == (a: APLanguage, b: APLanguage) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
 public protocol APViewDelegate : AnyObject {
   func apViewDidUpdateContent(view: APView)
   func apViewDidTriggerCustomAction(view: APView, name: Swift.String, parameters: [Swift.String : Any])
@@ -50,7 +61,7 @@ public protocol APViewlessDelegate : AnyObject {
   public static func initialize(settings: AdaptivePlusSettings, verbose: Swift.Bool = false)
   public static func showSplashScreen(user: AdaptivePlusUser? = nil, hasDrafts: Swift.Bool = false, customActionTriggered: ((Swift.String, [Swift.String : Any]) -> Swift.Void)? = nil, finished: (() -> Swift.Void)? = nil)
   public static func start(user: AdaptivePlusUser? = nil, completion: ((Swift.Bool) -> Swift.Void)? = nil)
-  public static func set(language: Language)
+  public static func set(language: APLanguage)
   @objc deinit
 }
 public class AdaptivePlusSettings : Swift.Codable, Swift.Equatable {
@@ -92,21 +103,8 @@ public class AdaptivePlusUser : Swift.Codable, Swift.Equatable {
   @objc deinit
   @objc override dynamic public init()
 }
-extension AdaptivePlus {
-  public enum Language {
-    case en
-    case ru
-    case kz
-    case `default`
-    public static func == (a: Language, b: Language) -> Swift.Bool
-    public var hashValue: Swift.Int {
-      get
-    }
-    public func hash(into hasher: inout Swift.Hasher)
-  }
-}
+extension APLanguage : Swift.Equatable {}
+extension APLanguage : Swift.Hashable {}
 extension AdaptivePlusUser.Gender : Swift.Equatable {}
 extension AdaptivePlusUser.Gender : Swift.Hashable {}
 extension AdaptivePlusUser.Gender : Swift.RawRepresentable {}
-extension Language : Swift.Equatable {}
-extension Language : Swift.Hashable {}

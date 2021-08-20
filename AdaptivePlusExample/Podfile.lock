@@ -1,26 +1,25 @@
 PODS:
-  - AdaptiveFonts (1.0.4)
-  - AdaptivePlus-iOS (2.0.6):
-    - AdaptiveFonts (~> 1.0.4)
+  - AdaptivePlus-iOS (2.0.9):
     - SDWebImage (~> 5.10.4)
   - SDWebImage (5.10.4):
     - SDWebImage/Core (= 5.10.4)
   - SDWebImage/Core (5.10.4)
 
 DEPENDENCIES:
-  - AdaptivePlus-iOS (~> 2.0.6)
+  - AdaptivePlus-iOS (from `./..`)
 
 SPEC REPOS:
   trunk:
-    - AdaptiveFonts
-    - AdaptivePlus-iOS
     - SDWebImage
 
+EXTERNAL SOURCES:
+  AdaptivePlus-iOS:
+    :path: "./.."
+
 SPEC CHECKSUMS:
-  AdaptiveFonts: 50e6eb72e8d060bf1221e8f7ac7d9b72118e8650
-  AdaptivePlus-iOS: 56464ba2aab0a35e2afce09d058044062fccc9ae
+  AdaptivePlus-iOS: c818532231a5c926030f7bbe1d2fd440ec5a7127
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
 
-PODFILE CHECKSUM: 8651ba9d414a0c942a620c49969738fb08813629
+PODFILE CHECKSUM: deb722dd6317e9c73348f061ea235a2b55344172
 
 COCOAPODS: 1.10.1

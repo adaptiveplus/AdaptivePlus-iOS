@@ -18,8 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-//        AdaptivePlus.initialize(settings: AdaptivePlusSettings(apiKey: apiKey), verbose: true)
-
+        let settings = AdaptivePlusSettings(
+            url: "", // Your url
+            clientId: "", // Your client id
+            clientSecret: "", // Your client secret
+            apiKey: apiKey
+        )
+        AdaptivePlus.initialize(settings: settings, verbose: true)
         return true
     }
 
