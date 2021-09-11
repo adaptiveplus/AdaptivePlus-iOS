@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdaptivePlus
 @_exported import AdaptivePlus
 import CoreGraphics
@@ -21,10 +21,10 @@ public enum APLanguage {
   case kz
   case `default`
   public static func == (a: APLanguage, b: APLanguage) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public protocol APViewDelegate : AnyObject {
   func apViewDidUpdateContent(view: APView)
@@ -36,8 +36,8 @@ public protocol APViewDelegate : AnyObject {
     get
   }
   convenience public init(publicationPageKey: Swift.String)
-  @objc deinit
   @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc deinit
 }
 extension APView {
   public func reload()
@@ -62,30 +62,31 @@ public protocol APViewlessDelegate : AnyObject {
   public static func showSplashScreen(user: AdaptivePlusUser? = nil, hasDrafts: Swift.Bool = false, customActionTriggered: ((Swift.String, [Swift.String : Any]) -> Swift.Void)? = nil, finished: (() -> Swift.Void)? = nil)
   public static func start(user: AdaptivePlusUser? = nil, completion: ((Swift.Bool) -> Swift.Void)? = nil)
   public static func set(language: APLanguage)
+  public static func getAuthorizationToken() -> Swift.String
   @objc deinit
 }
 public class AdaptivePlusSettings : Swift.Codable, Swift.Equatable {
   public init(url: Swift.String, clientId: Swift.String, clientSecret: Swift.String, apiKey: Swift.String)
   public static func == (lhs: AdaptivePlusSettings, rhs: AdaptivePlusSettings) -> Swift.Bool
-  required public init(from decoder: Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
 public class AdaptivePlusUser : Swift.Codable, Swift.Equatable {
   public enum Gender : Swift.String {
     case male
     case female
-    public typealias RawValue = Swift.String
     public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
     }
   }
   public init(userId: Swift.String? = nil, gender: AdaptivePlusUser.Gender? = nil, age: Swift.Int? = nil, userCoordinate: CoreLocation.CLLocationCoordinate2D? = nil, properties: [Swift.String : Swift.String]? = nil)
   public static func == (lhs: AdaptivePlusUser, rhs: AdaptivePlusUser) -> Swift.Bool
-  required public init(from decoder: Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers open class AnimatedCollectionViewLayout : UIKit.UICollectionViewFlowLayout {
   @objc override dynamic open class var layoutAttributesClass: Swift.AnyClass {
@@ -93,15 +94,15 @@ public class AdaptivePlusUser : Swift.Codable, Swift.Equatable {
   }
   @objc override dynamic open func layoutAttributesForElements(in rect: CoreGraphics.CGRect) -> [UIKit.UICollectionViewLayoutAttributes]?
   @objc override dynamic open func shouldInvalidateLayout(forBoundsChange newBounds: CoreGraphics.CGRect) -> Swift.Bool
-  @objc deinit
   @objc override dynamic public init()
   @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers open class AnimatedCollectionViewLayoutAttributes : UIKit.UICollectionViewLayoutAttributes {
   @objc override dynamic open func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc override dynamic open func isEqual(_ object: Any?) -> Swift.Bool
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 extension APLanguage : Swift.Equatable {}
 extension APLanguage : Swift.Hashable {}

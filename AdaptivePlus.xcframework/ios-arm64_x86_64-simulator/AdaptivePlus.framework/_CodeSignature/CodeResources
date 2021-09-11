@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Z3B+MYW6SQPbjbHD9pd9A1Pa6O8=
+		wYzK4G911eesa1Wd95sdp++FiHc=
 		</data>
 		<key>Headers/AdaptivePlus-Swift.h</key>
 		<data>
-		ec6re15T30zbSSy/utAtQOMPs0Y=
+		s/Ey2+sonAnfK6yo6SkSNf1WNiU=
 		</data>
 		<key>Headers/AdaptivePlus.h</key>
 		<data>
@@ -18,55 +18,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ulk2VuvJgv6xZWjr+rPHca+Quos=
+		q5FWmSf7XRMVYO9fuVikzUmngBw=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+WOKdR1oWUz7FWAaTA3kT6u1PlE=
+		CLRS7AuaOe4ykcBmE71MbilGx+M=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2ThyCMwcqMO9az+3PA2jtwXOmsk=
+		Iv6bzcuQACZRfMow06uxOSdDBiw=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bqBsaQTwNjEFdw8r2ZwVi9FByEI=
+		9DL8be6RSWh1d666oGGEG+uVfUo=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		+WOKdR1oWUz7FWAaTA3kT6u1PlE=
+		CLRS7AuaOe4ykcBmE71MbilGx+M=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		2ThyCMwcqMO9az+3PA2jtwXOmsk=
+		Iv6bzcuQACZRfMow06uxOSdDBiw=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		bqBsaQTwNjEFdw8r2ZwVi9FByEI=
+		9DL8be6RSWh1d666oGGEG+uVfUo=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		m/syWl/ItcSquieN8tcxKmB53Do=
+		FZGLGacmXAIoxRRSL0r8Oz9+Q84=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0oUsij6t2sM75eh+LUv78FqHpPE=
+		k0upko07muvMFwI84dBtaU1qVWA=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5BRN6AewyT/37W3UG9cTBzAv4gw=
+		dwqJAzRfxkqxMKnEXo8oVDzh8dA=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		m/syWl/ItcSquieN8tcxKmB53Do=
+		FZGLGacmXAIoxRRSL0r8Oz9+Q84=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		0oUsij6t2sM75eh+LUv78FqHpPE=
+		k0upko07muvMFwI84dBtaU1qVWA=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		5BRN6AewyT/37W3UG9cTBzAv4gw=
+		dwqJAzRfxkqxMKnEXo8oVDzh8dA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,14 +79,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q+0KKJfwfKd4gGYEDv3Oz//Y4byiVkIjFpyT5OgpQzI=
+			KpBXZZyA/my3n9C5GmkmEqJP88BHDG5KsASWyhf0gbo=
 			</data>
 		</dict>
 		<key>Headers/AdaptivePlus-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IpwlnQB0Cq2MbgU8y5T0aR4J2WftAOoEvHf8hBRDyZU=
+			P7uk2FjG44fxKE+P7KK3l+9NCRVjMI5ImBicVQLToeE=
 			</data>
 		</dict>
 		<key>Headers/AdaptivePlus.h</key>
@@ -100,84 +100,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RPRkYLuvrgyJcLz5pivh+hM71u3BnB1snNJtpCaaf8M=
+			CFtfKbaMBr7xx97CnnNfjvuOA0dmXz65bZVil/8B5/8=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1xBVnGknc/7+xbKAQPu7ea1W3OS4jXCzOf/6qmzwwJ0=
+			sC4bLNGUQ6y78e57FeYFosnHGE2/ZBvAtIgboRmYbHs=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rI14JF36F6Zzb8sf3BTMiolfvBHOnffx9VcDbZGh9PE=
+			QnEDbThipecBdBKdjfMicnQFOrjqIr69klnJ3jpCf6g=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RPRkYLuvrgyJcLz5pivh+hM71u3BnB1snNJtpCaaf8M=
+			CFtfKbaMBr7xx97CnnNfjvuOA0dmXz65bZVil/8B5/8=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1xBVnGknc/7+xbKAQPu7ea1W3OS4jXCzOf/6qmzwwJ0=
+			sC4bLNGUQ6y78e57FeYFosnHGE2/ZBvAtIgboRmYbHs=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rI14JF36F6Zzb8sf3BTMiolfvBHOnffx9VcDbZGh9PE=
+			QnEDbThipecBdBKdjfMicnQFOrjqIr69klnJ3jpCf6g=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZXx0fesCt4w7aF8Ka2ypFY6jpQYIMFgLsDg3grF9Pi0=
+			TtK1IENBDtdOX8aMoI7pT1WP4230ykFeqwpENT8p7YY=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ds1LMhCTQkVhZxggzimgbzj9Oe8TKmzWhtoBen5WocM=
+			Lylp0Wp0PQJgwYsC+TrthtsAM/OHY2LIzpdpSlawTTs=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pOd821ZlJgWzAgflw9RkmAxIPlxtBeYGQ+TUIaoQTPA=
+			JtIxH/14KyIW78eeoIabtK7UzTzbUQgxCFo2X1gYvWA=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZXx0fesCt4w7aF8Ka2ypFY6jpQYIMFgLsDg3grF9Pi0=
+			TtK1IENBDtdOX8aMoI7pT1WP4230ykFeqwpENT8p7YY=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ds1LMhCTQkVhZxggzimgbzj9Oe8TKmzWhtoBen5WocM=
+			Lylp0Wp0PQJgwYsC+TrthtsAM/OHY2LIzpdpSlawTTs=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pOd821ZlJgWzAgflw9RkmAxIPlxtBeYGQ+TUIaoQTPA=
+			JtIxH/14KyIW78eeoIabtK7UzTzbUQgxCFo2X1gYvWA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
