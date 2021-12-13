@@ -1,25 +1,34 @@
 PODS:
-  - AdaptivePlus-iOS (2.0.9):
+  - AdaptivePlus-iOS (2.0.11):
     - SDWebImage (~> 5.10.4)
+  - IQKeyboardManagerSwift (6.5.9)
   - SDWebImage (5.10.4):
     - SDWebImage/Core (= 5.10.4)
   - SDWebImage/Core (5.10.4)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - AdaptivePlus-iOS (from `./..`)
+  - IQKeyboardManagerSwift
+  - SDWebImage (~> 5.10.4)
+  - SnapKit
 
 SPEC REPOS:
   trunk:
+    - IQKeyboardManagerSwift
     - SDWebImage
+    - SnapKit
 
 EXTERNAL SOURCES:
   AdaptivePlus-iOS:
     :path: "./.."
 
 SPEC CHECKSUMS:
-  AdaptivePlus-iOS: c818532231a5c926030f7bbe1d2fd440ec5a7127
+  AdaptivePlus-iOS: 8be26cc44257a3710962a39382210c4c0abb8abe
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: deb722dd6317e9c73348f061ea235a2b55344172
+PODFILE CHECKSUM: 64e228b3da88d9f9279c8cbdd8d4d7bed3caaeec
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

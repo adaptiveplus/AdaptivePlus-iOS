@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		wYzK4G911eesa1Wd95sdp++FiHc=
+		RAwppFEljqMRPJ2lpnQoU3QdeYA=
 		</data>
 		<key>Headers/AdaptivePlus-Swift.h</key>
 		<data>
-		/KpTeIGWW2ohDA8CSTVtrnarObg=
+		ux2SqTKOwLzCZFA4CKytiynY1h4=
 		</data>
 		<key>Headers/AdaptivePlus.h</key>
 		<data>
@@ -18,31 +18,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vF9TgFk4f/GKVSQPTXBGMUWltAM=
+		6kNnn1YNCjQkuo89+mzic8SBVLY=
+		</data>
+		<key>Localizable+EN.strings</key>
+		<data>
+		dWK5AFsnN3xDDu0G2DOLxKiGRBQ=
+		</data>
+		<key>Localizable+KZ.strings</key>
+		<data>
+		bj7agWVsyhRMeIOi2hwwNxanRnQ=
+		</data>
+		<key>Localizable+RU.strings</key>
+		<data>
+		21FuSPTQ2A/o5YIPy+BWq37PJJI=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		0pZ9cCoZ2/vpXWt9VODwsaZhNrk=
+		RlF8f515ji3s0D8dGkfawF8tR3s=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		9AwypxExmePNiplMDlHlGcFa5x8=
+		MAnqsE5grtZd6ZBMQnJOhdBH6DY=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		RRvWfhMU/KxzosRlHTlFr6Akfhw=
+		5Jf5/O9wosXSBuHnG03wi0Q/Ves=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		0pZ9cCoZ2/vpXWt9VODwsaZhNrk=
+		RlF8f515ji3s0D8dGkfawF8tR3s=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		9AwypxExmePNiplMDlHlGcFa5x8=
+		MAnqsE5grtZd6ZBMQnJOhdBH6DY=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		RRvWfhMU/KxzosRlHTlFr6Akfhw=
+		5Jf5/O9wosXSBuHnG03wi0Q/Ves=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,14 +67,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KpBXZZyA/my3n9C5GmkmEqJP88BHDG5KsASWyhf0gbo=
+			15463lgR5gto0y3ZdNX/jvBvFT0I/D/n9gc6jWygaGw=
 			</data>
 		</dict>
 		<key>Headers/AdaptivePlus-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uPk6//vs5/1CttudWcnkXrqLuqjTo9ZtasRJyvXdk+A=
+			6UX9E6O4L620Q9TBL+4jcPBptxIWmcYByk3McClHgR0=
 			</data>
 		</dict>
 		<key>Headers/AdaptivePlus.h</key>
@@ -72,46 +84,67 @@
 			GpWAjNbGTONfsML2vLy6yJjVEDJhKyI6K+UMnCX0zXM=
 			</data>
 		</dict>
+		<key>Localizable+EN.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Jr+ih8mEOuMP4RJZzl6TXJS3Rlvt4GRbmvHObB3X434=
+			</data>
+		</dict>
+		<key>Localizable+KZ.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qotkdwwm6Zl3OYcs3qrf7GvcxwY7+5qJ2eAISRjQRsY=
+			</data>
+		</dict>
+		<key>Localizable+RU.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bolVfOoMo/7l0RjVFUmmjKqM9MQK99+x7+Linpla4VM=
+			</data>
+		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YppTBxF+eMP6l1oonA7f3YpOokS+ELxYnpKWlu96qDs=
+			gbQ1dIhk33cgNMSg5dSBgIMXE7e+43nAwLOXemnpjcw=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YVHfoNjJJHRhLbuWn6fjTYwShrqy+ERgGv6yCnjJMOA=
+			CoorCZo+bPN6BVWmcFPTVFP0X9BRnuHZ4XSqB1aZQeY=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uLDK6m/0u/inUWr54XZA8rPsj0gYgC9KjSrS3IaKcUk=
+			aymt9qKCeTSaWO724bzTv79O6eKcyeKbWCpMWB56syY=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YppTBxF+eMP6l1oonA7f3YpOokS+ELxYnpKWlu96qDs=
+			gbQ1dIhk33cgNMSg5dSBgIMXE7e+43nAwLOXemnpjcw=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YVHfoNjJJHRhLbuWn6fjTYwShrqy+ERgGv6yCnjJMOA=
+			CoorCZo+bPN6BVWmcFPTVFP0X9BRnuHZ4XSqB1aZQeY=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uLDK6m/0u/inUWr54XZA8rPsj0gYgC9KjSrS3IaKcUk=
+			aymt9qKCeTSaWO724bzTv79O6eKcyeKbWCpMWB56syY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

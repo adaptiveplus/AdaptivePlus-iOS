@@ -6,6 +6,9 @@ target 'AdaptivePlusExample' do
   use_frameworks!
 
   # Pods for AdaptivePlusExample
+  pod 'SnapKit'
+  pod 'IQKeyboardManagerSwift'
+  pod 'SDWebImage', '~> 5.10.4'
   pod 'AdaptivePlus-iOS', :path => './..'
 
 end
