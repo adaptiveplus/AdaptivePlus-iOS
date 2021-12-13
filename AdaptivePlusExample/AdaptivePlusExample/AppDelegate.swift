@@ -6,27 +6,15 @@
 //
 
 import UIKit
-import AdaptivePlus
+import IQKeyboardManagerSwift
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    // Use an Api Key generated from the adaptive.plus admin panel, go to "Integrations"
-    let apiKey = "kz2SNtDdQcCMACvh"
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
-        let settings = AdaptivePlusSettings(
-            url: "", // Your url
-            clientId: "", // Your client id
-            clientSecret: "", // Your client secret
-            apiKey: apiKey
-        )
-        AdaptivePlus.initialize(settings: settings, verbose: true)
+        IQKeyboardManager.shared.enable = true
         return true
     }
-
 }
-
