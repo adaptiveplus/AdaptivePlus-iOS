@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		RAwppFEljqMRPJ2lpnQoU3QdeYA=
+		UdLOSJ6N3dYrI8kUIm0uPRY1/hI=
 		</data>
 		<key>Headers/AdaptivePlus-Swift.h</key>
 		<data>
-		ux2SqTKOwLzCZFA4CKytiynY1h4=
+		RCtlHoc/cA5N62sJHVBQ1RV7eRc=
 		</data>
 		<key>Headers/AdaptivePlus.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6kNnn1YNCjQkuo89+mzic8SBVLY=
+		X1FiMjWRHzK8QSqgbs6WzP0oWys=
 		</data>
 		<key>Localizable+EN.strings</key>
 		<data>
@@ -34,27 +34,27 @@
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		RlF8f515ji3s0D8dGkfawF8tR3s=
+		4ggAib1QggjKCsUbaL3p5joQbSQ=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		MAnqsE5grtZd6ZBMQnJOhdBH6DY=
+		CkzBPePruaozRb1JvYZvLGDsaLw=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5Jf5/O9wosXSBuHnG03wi0Q/Ves=
+		4Za8cpbGUIN2WmT//Ij0bT9FLPQ=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		RlF8f515ji3s0D8dGkfawF8tR3s=
+		4ggAib1QggjKCsUbaL3p5joQbSQ=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		MAnqsE5grtZd6ZBMQnJOhdBH6DY=
+		CkzBPePruaozRb1JvYZvLGDsaLw=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		5Jf5/O9wosXSBuHnG03wi0Q/Ves=
+		4Za8cpbGUIN2WmT//Ij0bT9FLPQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,14 +67,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			15463lgR5gto0y3ZdNX/jvBvFT0I/D/n9gc6jWygaGw=
+			lPxaVcrQYVviUBZa3MD6Q84TC8kTBno3jVlr5iufpTg=
 			</data>
 		</dict>
 		<key>Headers/AdaptivePlus-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6UX9E6O4L620Q9TBL+4jcPBptxIWmcYByk3McClHgR0=
+			mGi1sB8hXntCUKnKl839LrRMZ3U8K4S/S/t1qi3BYY0=
 			</data>
 		</dict>
 		<key>Headers/AdaptivePlus.h</key>
@@ -109,42 +109,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gbQ1dIhk33cgNMSg5dSBgIMXE7e+43nAwLOXemnpjcw=
+			6ECPsFp3dGjtwnnDhmDYi/0toJpcQINh7Usn1EpO6E4=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CoorCZo+bPN6BVWmcFPTVFP0X9BRnuHZ4XSqB1aZQeY=
+			mBlJJXFQ3svQxwWhTlvYzQGTLWkb2f1rXE0qhVi79+A=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aymt9qKCeTSaWO724bzTv79O6eKcyeKbWCpMWB56syY=
+			kF9tzb7c16rWuS6eFcWW0C1IPb+/C4oqB9N4SGAgsfQ=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gbQ1dIhk33cgNMSg5dSBgIMXE7e+43nAwLOXemnpjcw=
+			6ECPsFp3dGjtwnnDhmDYi/0toJpcQINh7Usn1EpO6E4=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CoorCZo+bPN6BVWmcFPTVFP0X9BRnuHZ4XSqB1aZQeY=
+			mBlJJXFQ3svQxwWhTlvYzQGTLWkb2f1rXE0qhVi79+A=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aymt9qKCeTSaWO724bzTv79O6eKcyeKbWCpMWB56syY=
+			kF9tzb7c16rWuS6eFcWW0C1IPb+/C4oqB9N4SGAgsfQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
