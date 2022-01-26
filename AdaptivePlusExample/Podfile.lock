@@ -1,5 +1,5 @@
 PODS:
-  - AdaptivePlus-iOS (2.0.11):
+  - AdaptivePlus-iOS (2.0.13):
     - SDWebImage (~> 5.10.4)
   - IQKeyboardManagerSwift (6.5.9)
   - SDWebImage (5.10.4):
@@ -24,7 +24,7 @@ EXTERNAL SOURCES:
     :path: "./.."
 
 SPEC CHECKSUMS:
-  AdaptivePlus-iOS: 8be26cc44257a3710962a39382210c4c0abb8abe
+  AdaptivePlus-iOS: 1414b89124d19759be1c193056cfedfe64768a72
   IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
