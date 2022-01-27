@@ -16,7 +16,7 @@
 Add following to your Podfile
 ```
 platform :ios, '11.0'
-pod 'AdaptivePlus-iOS', '2.0.10'
+pod 'AdaptivePlus-iOS', '2.0.13'
 ```
 and run following command.
 
@@ -148,7 +148,7 @@ extension YourClass {
 }
 
 extension YourClass: APViewlessDelegate {
-    func apViewlessDidFinishStories(viewless: APViewless) {
+    func apViewlessDidFinish(viewless: APViewless) {
         // do some your actions when story closed if needed
     }
 
@@ -166,7 +166,7 @@ AdaptivePlus.initialize(settings: adaptivePlusSettings, verbose: true)
 ```
 Do not forget to switch *Verbose Mode* off for the release build of your app.
 
-## AdaptivePlus-iOS SDK (2.0.10)
+## AdaptivePlus-iOS SDK (2.0.13)
 1) Shows SDK generated content: able to display Images & GIFs & Texts, execute simplest set of actions on click, etc.
 2) Action list contains:\
 (1) *Web URL Opening in WebView dialog window*,\
