@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0+eC5tJW50NvA3yAqBDwXM3W+DA=
+		raNo/TH4KO0/JfkW8Bs37OGCXiw=
 		</data>
 		<key>Localizable+EN.strings</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		286NyQmHhAbqF5aVTmZe82f/PpA=
+		D4BlweN1YFk5lTDqbzBcyZpwQtc=
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		286NyQmHhAbqF5aVTmZe82f/PpA=
+		D4BlweN1YFk5lTDqbzBcyZpwQtc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -123,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H3DDOsTEnW6KxYKhXV9BbGnLuFqk6hz4IVgg388iXV4=
+			Vm2+M+brEyvsL6ZgqKz64qxJacaKHyJmMUYEPyMO6uA=
 			</data>
 		</dict>
 		<key>Modules/AdaptivePlus.swiftmodule/arm64.swiftdoc</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H3DDOsTEnW6KxYKhXV9BbGnLuFqk6hz4IVgg388iXV4=
+			Vm2+M+brEyvsL6ZgqKz64qxJacaKHyJmMUYEPyMO6uA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
